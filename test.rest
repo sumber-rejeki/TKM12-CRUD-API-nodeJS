@@ -1,7 +1,8 @@
-//REQUEST
+##//REQUEST
 GET http://localhost:3000/note
 
-//RESPONSE
+##//RESPONSE
+```javascript
 HTTP/1.1 200 OK
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
@@ -24,10 +25,12 @@ Connection: close
     "content": "this thirdNote content"
   }
 ]
+```
 
 ###
-//REQUEST
+##//REQUEST
 POST http://localhost:3000/note
+```javascript
 Content-Type: application/json
 
 {
@@ -37,8 +40,10 @@ Content-Type: application/json
         "content":"this new note content"
     }
 }
+```
 
-//RESPONSE
+##//RESPONSE
+```javascript
 HTTP/1.1 200 OK
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
@@ -65,11 +70,13 @@ Connection: close
     "content": "this new note content"
   }
 ]
+```
 
 
 ###
-//REQUEST
+##//REQUEST
 PUT http://localhost:3000/note
+```javascript
 Content-Type: application/json
 
 {
@@ -79,8 +86,10 @@ Content-Type: application/json
         "content":"FIRST NOTE CONTENT UPDATED"
     }
 }
+```
 
-//RESPONSE
+##//RESPONSE
+```javascript
 HTTP/1.1 200 OK
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
@@ -107,14 +116,16 @@ Connection: close
     "content": "this new note content"
   }
 ]
+```
 
 
 ###
-//REQUEST
+##//REQUEST
 DELETE http://localhost:3000/note/firstNote
 
 
-//RESPONSE
+##//RESPONSE
+```javascript
 HTTP/1.1 200 OK
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
@@ -137,3 +148,4 @@ Connection: close
     "content": "this new note content"
   }
 ]
+```
