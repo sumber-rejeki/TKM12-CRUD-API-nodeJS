@@ -1,0 +1,16 @@
+{
+  "notes": [
+    {
+      "id": "secondNote",
+      "content": "this secondNote content"
+    },
+    {
+      "id": "thirdNote",
+      "content": "this thirdNote content"
+    },
+    {
+      "id": "newNote",
+      "content": "this new note content"
+    }
+  ]
+}
