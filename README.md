@@ -1,7 +1,7 @@
-##//REQUEST
+## //REQUEST
 GET http://localhost:3000/note
 
-##//RESPONSE
+## //RESPONSE
 ```javascript
 HTTP/1.1 200 OK
 X-Powered-By: Express
@@ -28,7 +28,7 @@ Connection: close
 ```
 
 ###
-##//REQUEST
+## //REQUEST
 POST http://localhost:3000/note
 ```javascript
 Content-Type: application/json
@@ -42,7 +42,7 @@ Content-Type: application/json
 }
 ```
 
-##//RESPONSE
+## //RESPONSE
 ```javascript
 HTTP/1.1 200 OK
 X-Powered-By: Express
@@ -74,7 +74,7 @@ Connection: close
 
 
 ###
-##//REQUEST
+## //REQUEST
 PUT http://localhost:3000/note
 ```javascript
 Content-Type: application/json
@@ -88,7 +88,7 @@ Content-Type: application/json
 }
 ```
 
-##//RESPONSE
+## //RESPONSE
 ```javascript
 HTTP/1.1 200 OK
 X-Powered-By: Express
@@ -120,11 +120,11 @@ Connection: close
 
 
 ###
-##//REQUEST
+## //REQUEST
 DELETE http://localhost:3000/note/firstNote
 
 
-##//RESPONSE
+## //RESPONSE
 ```javascript
 HTTP/1.1 200 OK
 X-Powered-By: Express
